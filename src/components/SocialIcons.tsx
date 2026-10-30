@@ -1,9 +1,9 @@
 import {
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
+  FaWhatsapp,
 } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -61,6 +61,21 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
+          <a
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(config.contact.email)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor="disable"
+          >
+            <SiGmail />
+          </a>
+        </span>
+        <span>
+          <a href={config.contact.whatsapp} data-cursor="disable">
+            <FaWhatsapp />
+          </a>
+        </span>
+        <span>
           <a href={config.contact.github} target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
@@ -68,16 +83,6 @@ const SocialIcons = () => {
         <span>
           <a href={config.contact.linkedin} target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
-          </a>
-        </span>
-        <span>
-          <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
-            <FaXTwitter />
-          </a>
-        </span>
-        <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
           </a>
         </span>
       </div>

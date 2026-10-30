@@ -62,12 +62,6 @@ const Contact = () => {
         <h3>{config.developer.fullName}</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Email</h4>
-            <p>
-              <a href={`mailto:${config.contact.email}`} data-cursor="disable">
-                {config.contact.email}
-              </a>
-            </p>
             <h4>Location</h4>
             <p>
               <span>{config.social.location}</span>
@@ -94,32 +88,15 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href={config.contact.twitter}
+              href={config.contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
+              WhatsApp <MdArrowOutward />
             </a>
-            <a
-              href={config.contact.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Facebook <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+            
           </div>
           <div className="contact-box">
             <h2>

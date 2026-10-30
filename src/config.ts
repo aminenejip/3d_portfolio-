@@ -1,190 +1,112 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
-    },
-    social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        name: "Amine",
+        fullName: "Amine Neji",
+        title: "Full-Stack Developer",
+        description: "Full-Stack Developer | Master's student in Networking & Cloud Computing",
+        availability: "Open to internships & PFE",
+    },social: {
+        github: "aminenejip",
+        email: "aminenejip@gmail.com",
+        location: "Nabeul, Tunisia"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Master's student in Networking and Cloud Computing, and I hold a Bachelor's degree in Computer Science from the Faculty of Sciences of Sfax. Understanding what happens under the hood — networks, servers, infrastructure — helps me build web applications that are not just functional, but solid. I complement that systems knowledge with day-to-day full-stack practice: turning ideas into working interfaces, APIs and deployments."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Master's student – Networking & Cloud Computing",
+            company: "Faculty of Sciences of Sfax",
+            period: "2026 - Present",
+            location: "Tunisia",
+            description: "Currently pursuing a Master's degree in Networking and Cloud Computing, focused on networking, cloud infrastructure and systems administration.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Studying advanced networking concepts (routing, switching, VLANs)",
+                "Learning cloud computing and infrastructure fundamentals",
+                "Preparing the CCNA 200-301 certification"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["TCP/IP", "VLAN", "Cloud Computing", "Cisco CCNA", "Linux"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Licence in Computer Science",
+            company: "Faculty of Sciences of Sfax",
+            period: "2023 - 2026",
+            location: "Tunisia",
+            description: "Completed a Bachelor's degree in Computer Science covering programming, data structures, algorithmic problem solving, databases, analysis and modeling.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Programming fundamentals and algorithmic problem solving",
+                "Data structures and databases",
+                "Analysis and modeling"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Python", "Java", "MySQL", "Algorithms"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            position: "IT Intern",
+            company: "Elite Council Consulting",
             period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            location: "Tunisia",
+            description: "Took part in an accounting analysis project and worked with the basics of Angular, Figma, Node.js and MongoDB, using GitHub and IntelliJ.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Contributing to an accounting analysis project",
+                "Learning the basics of Angular for front-end work",
+                "Building simple back-end features with Node.js and MongoDB",
+                "Using Figma for prototyping, GitHub and IntelliJ daily"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["Angular", "Node.js", "MongoDB", "Figma"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Baccalauréat Informatique",
+            company: "Lycée Béni Khiar, Nabeul",
+            period: "2022 - 2023",
+            location: "Tunisia",
+            description: "IT-track baccalaureate combining mathematics, sciences and computer science fundamentals.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Mathematics and sciences curriculum",
+                "Computer science fundamentals"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Algorithms", "Informatique"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "Orchom",
+            category: "Mobile App",
+            technologies: "Dart",
+            image: "/images/orchom.png",
+            description: "Carnet de score Rami Tunisien. Une application simple et intuitive pour suivre vos parties de Rami entre amis : 2 à 4 joueurs, suivi des scores, historique des parties et réglages personnalisables.",
+            link: "https://github.com/aminenejip/Orchom-Suivi-du-jeu-Rami"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
-        },
-        {
-            id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
-        },
-        {
-            id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
-        },
-        {
-            id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
-        },
-        {
-            id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "Movewell",
+            category: "Desktop App",
+            technologies: "Desktop Widget",
+            image: "/images/movewell.png",
+            description: "Un widget de bureau simple et élégant qui vous aide à faire des pauses régulières pour rester en forme et productif : timer personnalisable, notifications sonores, widget toujours visible et réglages flexibles.",
+            link: "https://github.com/aminenejip/backpain-alert-widget"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "aminenejip@gmail.com",
+        phone: "+216 92 651 881",
+        whatsapp: "https://wa.me/21692651881",
+        github: "https://github.com/aminenejip",
+        linkedin: "https://www.linkedin.com/in/neji-amine-521942300/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "FULL-STACK DEVELOPER",
+            description: "From responsive interfaces to APIs and databases",
+            details: "Building responsive interfaces with React and Angular, and server-side development from REST APIs to data modeling — turning ideas into working, solid applications alongside my studies.",
+            tools: ["HTML5", "CSS3", "JavaScript", "React", "Angular", "Node.js", "Express.js", "PHP", "Python", "Java", "MySQL", "MongoDB", "REST APIs"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "NETWORKING & CLOUD",
+            description: "Solid fundamentals through my Master's curriculum",
+            details: "Solid networking fundamentals built through my Master's program and Cisco coursework — networks, servers and infrastructure that make applications solid under the hood. Currently learning Docker, CCNA and cloud infrastructure.",
+            tools: ["TCP/IP", "IP Addressing", "VLAN", "Switching", "Routing", "Git", "GitHub", "Linux", "Docker (learning)", "CCNA 200-301 (preparing)"]
         }
     }
 };

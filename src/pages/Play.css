@@ -196,6 +196,13 @@ body:has(.play-page) {
   object-fit: cover;
 }
 
+.player-avatar-initials {
+  color: #eae5ec;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
 .player-details {
   display: flex;
   flex-direction: column;
